@@ -1,13 +1,67 @@
 ll
 l
-rm sorted_notes.txt 
-rm fish_notes.txt 
-rm fish_notes.backup 
+# REMOVE x Files
+rm sorted_notes.txt
+rm fish_notes.txt
+rm fish_notes.backup
+
+# Present Working Directory
 pwd
 cd ~/Projects/week01/notebook/
+
+#
+Manual for git
 man git
+
+# Change Directory
 cd
+
+# JS Exercises
 javascripting
+
+Version Control System(s) (VCS)
+
+I. Revisions
+  a) Identified by a number or letter code
+  b) Synonyms = commit, revise, snapshot, version…
+
+II. Importance
+  a) Protection from mistakes/bugs
+  b) Experiment with new methods
+  c) Enhances collusion viability with peers
+
+III. Repository
+  a) Directory that has been initialized by Git VCS
+  b) 3 Steps: 1. unstaged > 2. staged > 3. committed (Git)
+
+IV. Git(hub)
+  a) Repository that provides all the benefits of a VCS
+  b) Create a repository w/ git init
+  c) Untracked file = Git doesn’t know about file yet (no revisions available)
+
+
+——
+
+cd ~Projects/week01/notebook/
+history > notes.txt
+git.init
+la (see hidden git files - backups & etc)
+< new prompt >
+git status (see status of staging area)
+< .DS_Store used to track changes in Finder window >
+rm .DS_Store
+git add notes.txt (unstaged > staged)
+git status
+git commit -m 'Add notes.txt'
+< green checkmark + revision # generated >
+git status < nothing to commit >
+
+
+
+
+
+
+
 git clone https://github.com/xchau/clmystery.git
 rm clmystery/
 cd ..
@@ -19,23 +73,23 @@ echo "Jeremy Bowers" | md5 | grep -qif /dev/stdin encoded; and echo CORRECT\! GR
 git remote -v
 git remote
 less people | grep 'Annabel'
-less Buckingham_Place 
+less Buckingham_Place
 cd streets
-grep CLUE crimescene 
+grep CLUE crimescene
 less crimescene | grep CLUE
 cd mystery/
 cd javascripting/
 cd ~
-echo "Jeremy Bowers" 
-cat solution 
+echo "Jeremy Bowers"
+cat solution
 less solution
-cat encoded 
-cat cheatsheet.pdf 
-cat cheatsheet.md 
+cat encoded
+cat cheatsheet.pdf
+cat cheatsheet.md
 echo "Jeremy Bowers"
 less Delta_SkyMiles Museum_of_Bash_History | grep 'Jeremy'
 cat crimescene | grep 'CLUE'
-cat instructions 
+cat instructions
 less AAA Terminal_City_Library | grep 'Jeremy'
 cd memberships/
 cat hint8
@@ -55,24 +109,24 @@ cat Buckingham_Place | grep 'INTERVIEW'
 cat people | grep 'Annabel'
 cat interview-871877
 cd interviews/
-cat Haley_Street 
+cat Haley_Street
 less vehicles | grep 'Annabel' -A 8
 cat Terminal_City_Library | grep "Annabel"
 cat AAA | grep 'Annabel'
 cat Museum_of_Bash_History | grep "Annabel"
-cat Museum_of_Bash_History 
+cat Museum_of_Bash_History
 cat AAA
 less vehicles | grep 'Annabel' -A 5
 less vehicles | grep 'Annabel' -A
-less vehicles 
+less vehicles
 less vehicles | grep 'Annabel'
 less people | grep 'Ana'
 .
 cat Terminal_City_Library | grep Ana
 cat Terminal_City_Library | grep Kal
-cat Terminal_City_Library 
+cat Terminal_City_Library
 ls
-cat vehicles 
+cat vehicles
 cat vehicles | grep 'Kal'
 cat people | grep 'Anabel'
 cat Museum_of_Bash_History  | grep 'Anabel'
@@ -82,27 +136,27 @@ cat people
 cat vehicles | grep CLUE
 cat people | grep 'CLUE'
 cat interviews | grep 'CLUE'
-cat crimescene 
-cat README.md 
-less README.md 
+cat crimescene
+cat README.md
+less README.md
 cd clmystery/
 cp fish_notes.txt fish_notes.backup
 mv notes.txt fish_notes.txt
 cat notes.txt | sort > sorted_notes.txt
-history 
+history
 cat notes.txt | sort | grep 'brew'
 cat notes.txt | sort
-history >> notes.txt 
+history >> notes.txt
 less notes.txt
 man tree
 la
-history > notes.txt 
-tree .. > notes.txt 
-cat notes.txt 
+history > notes.txt
+tree .. > notes.txt
+cat notes.txt
 history > notes.txt
 history
 cat notes.txt
-rm notes.txt 
+rm notes.txt
 ls notes.txt
 touch notes.txt
 ls -la
@@ -117,7 +171,7 @@ cd ./Homebrew/
 cd /usr/local
 tree ..
 tree .
-tree 
+tree
 ls -S
 cd ./Documents/Brackets/gschool\ profile/
 cd ../Xiu/
@@ -174,11 +228,11 @@ which fish
 which fish config
 surge
 git commit -m 'Add a CNAME'
-git add CNAME 
+git add CNAME
 touch CNAME
 git commit -m 'Add a tiny web page'
-git add index.html 
-open index.html 
+git add index.html
+open index.html
 atom .
 touch index.html
 git init
@@ -206,14 +260,14 @@ which echo
 echo fish
 echo $PATH
 sudo atom /etc/paths
-echo $EDITOR 
+echo $EDITOR
 atom ~/.config/fish/config.fish
 atom ~/Downloads/
 brew info
-brew info 
+brew info
 brew info fish
 brew in
-fish_update_completions 
+fish_update_completions
 curl -fsSL https://git.io/vXOeC | ruby
 curl -fsSL https://git.io/vX0eC | ruby
 javascripting verify number-to-string.js
