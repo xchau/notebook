@@ -1,0 +1,270 @@
+ll
+l
+rm sorted_notes.txt 
+rm fish_notes.txt 
+rm fish_notes.backup 
+pwd
+cd ~/Projects/week01/notebook/
+man git
+cd
+javascripting
+git clone https://github.com/xchau/clmystery.git
+rm clmystery/
+cd ..
+cat solution
+cd ~/Projects/week01/clmystery/
+open .
+cd ~/Projects/week01/
+echo "Jeremy Bowers" | md5 | grep -qif /dev/stdin encoded; and echo CORRECT\! GREAT WORK, GUMSHOE.; or echo SORRY, TRY AGAIN.
+git remote -v
+git remote
+less people | grep 'Annabel'
+less Buckingham_Place 
+cd streets
+grep CLUE crimescene 
+less crimescene | grep CLUE
+cd mystery/
+cd javascripting/
+cd ~
+echo "Jeremy Bowers" 
+cat solution 
+less solution
+cat encoded 
+cat cheatsheet.pdf 
+cat cheatsheet.md 
+echo "Jeremy Bowers"
+less Delta_SkyMiles Museum_of_Bash_History | grep 'Jeremy'
+cat crimescene | grep 'CLUE'
+cat instructions 
+less AAA Terminal_City_Library | grep 'Jeremy'
+cd memberships/
+cat hint8
+cat hint7
+cat hint6
+cat hint5
+cd ../..
+cat interview-904020
+cat Andover_Road | grep 'INTERVIEW'
+cat interview-9620713
+cat Dunstable_Road | grep 'INTERVIEW'
+cat people | grep 'Jeremy'
+cat people | grep 'Jacqui'
+cat vehicles | grep 'L337' -A 10
+cat interview-699607
+cat Buckingham_Place | grep 'INTERVIEW'
+cat people | grep 'Annabel'
+cat interview-871877
+cd interviews/
+cat Haley_Street 
+less vehicles | grep 'Annabel' -A 8
+cat Terminal_City_Library | grep "Annabel"
+cat AAA | grep 'Annabel'
+cat Museum_of_Bash_History | grep "Annabel"
+cat Museum_of_Bash_History 
+cat AAA
+less vehicles | grep 'Annabel' -A 5
+less vehicles | grep 'Annabel' -A
+less vehicles 
+less vehicles | grep 'Annabel'
+less people | grep 'Ana'
+.
+cat Terminal_City_Library | grep Ana
+cat Terminal_City_Library | grep Kal
+cat Terminal_City_Library 
+ls
+cat vehicles 
+cat vehicles | grep 'Kal'
+cat people | grep 'Anabel'
+cat Museum_of_Bash_History  | grep 'Anabel'
+cat AAA | grep 'Anabel'
+cat vehicles
+cat people
+cat vehicles | grep CLUE
+cat people | grep 'CLUE'
+cat interviews | grep 'CLUE'
+cat crimescene 
+cat README.md 
+less README.md 
+cd clmystery/
+cp fish_notes.txt fish_notes.backup
+mv notes.txt fish_notes.txt
+cat notes.txt | sort > sorted_notes.txt
+history 
+cat notes.txt | sort | grep 'brew'
+cat notes.txt | sort
+history >> notes.txt 
+less notes.txt
+man tree
+la
+history > notes.txt 
+tree .. > notes.txt 
+cat notes.txt 
+history > notes.txt
+history
+cat notes.txt
+rm notes.txt 
+ls notes.txt
+touch notes.txt
+ls -la
+cd notebook/
+cd note
+mkdir notebook
+clear
+ll /sbin
+cd /usr/bin
+cd /bin
+cd ./Homebrew/
+cd /usr/local
+tree ..
+tree .
+tree 
+ls -S
+cd ./Documents/Brackets/gschool\ profile/
+cd ../Xiu/
+./Users/Xiu
+cd /
+cd Users/Xiu/
+cd ~/Downloads/
+cd ~/
+cd .
+whoami
+tree -L 2 ~
+tree -L 1 ~
+tree ~
+brew install tree
+echo ~
+cd Desktop/
+echo ..
+echo 'hello world'
+ls -R
+ls -dslr
+ls -halS
+ls -hS
+ls -Sh
+cd ~/Documents/Brackets/jQuery\ \&\ Javascript/
+ls -t
+ls -T
+ls -s
+ls -a
+cd ./Wallpaper/
+cd ~/Pictures/
+ls -p
+ls -O
+cd ~/Documents/Brackets/
+ls -n
+ls -F ~/Documents/Brackets/
+ls -F /Documents/Brackets
+ls -F
+ls -c
+ls -C
+ls -B
+ls -A
+la -@
+ls -@
+man ls
+man
+ls -hal
+ls -hl ~/Documents/Brackets/
+ls -l ~/Documents/Brackets/
+ls ~/Documents/Brackets/
+ls ~/Documents/
+ls -l
+groups
+which fish
+which fish config
+surge
+git commit -m 'Add a CNAME'
+git add CNAME 
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html 
+open index.html 
+atom .
+touch index.html
+git init
+cd xchau.surge.sh/
+mkdir xchau.surge.sh
+cd ~/Projects/week01
+mkdir -p ~/Projects/week01
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
+atom ~/Desktop/test.js
+node
+node -v
+brew install node
+cat ~/.gitconfig
+curl -fsSL https://git.io/vXOvh | sh
+curl -fsSL https://git.io/vXOeC | sh
+git config --global user.email 'xiu.chau@gmail.com'
+git config --global user.name 'Minh Chau'
+brew doctor
+git --version
+brew install git
+which echo
+echo fish
+echo $PATH
+sudo atom /etc/paths
+echo $EDITOR 
+atom ~/.config/fish/config.fish
+atom ~/Downloads/
+brew info
+brew info 
+brew info fish
+brew in
+fish_update_completions 
+curl -fsSL https://git.io/vXOeC | ruby
+curl -fsSL https://git.io/vX0eC | ruby
+javascripting verify number-to-string.js
+touch number-to-string.js
+javascripting verify rounding-numbers.js
+console.log(rounded);
+ rounding-numbers.js
+touch rounding-numbers.js
+javascripting verify numbers.js
+touch numbers.js
+javascripting verify revising-strings.js
+touch revising-strings.js
+revising-strings.js
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+javascripting verify string-length.js
+touch string-length.js
+javascripting verify strings.js
+touch strings.js
+javascripting verify variables.js
+touch variables.js
+javascripting verify introduction.js
+touch introduction.js
+cd javascripting
+mkdir javascripting
+npm install --global javascripting
+brew upgrade
+brew update
+brew postinstall node
+brew link --overwrite node
+sudo chown -R Xiu:admin node_modules
+sudo chown -R Xiu:admin dtrace/
+cd /usr/local/lib/
+sudo chown -R Xiu:admin systemtap/
+cd /usr/local/share/
+sudo chown -R Xiu:admin node/
+cd doc/
+sudo rm -rf node/
+cd include/
+cd /usr/local/
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ls -G
+q
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+apm install atom-runner
+apm install autocomplete-plus
+apm instlall autocomplete-plus
+ping
+killall Finder
+defaults write com.apple.finder AppleShowAllFiles FALSE
+defaults write com.apple.finder AppleShowAllFiles TRUE
+apm install caprice-dark-syntax
+cd Documents/
